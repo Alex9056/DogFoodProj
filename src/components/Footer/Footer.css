@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color:  #FFE44D;
+    padding: 12px 0; 
+    ;
+
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__contacts{
+display: flex;
+flex-direction: column;
+justify-content: stretch;
+align-items: flex-start;
+}
+.footer__phonenumber {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 6px;
+}
+.footer__email {
+	font-size: 12px;
+	line-height: 14px;
+	color: #1A1A1A;
+	display: block;
+	margin-bottom: 2px;
+}
+
+@media (max-width:700px) {
+    .footer__logo {
+        display: none;
+    }
+    .footer__contacts{
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+}
+}

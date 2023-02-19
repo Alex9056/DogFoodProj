@@ -1,0 +1,21 @@
+.ref__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 0;
+    padding-right: 30px;
+    row-gap: 1px;
+    column-gap: 2em;
+    
+ 
+}
+.ref__decoration{
+    text-decoration: none;
+    font-size: 12px;
+	line-height: 14px;
+    color: #1A1A1A;
+}
+
+@media (max-width:700px) {
+    .ref__wrapper {
+        display: none;}
+}
