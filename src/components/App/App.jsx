@@ -12,7 +12,7 @@ const [cards, setFilterCards] = useState(data);
 const [searchQuery, setSearchQuery] = useState('');
 
 useEffect(()=>{
-  const newState = data.filter((el)=>(el.name.toLowerCase()).includes(searchQuery));
+  const newState = data.filter((el)=>(el.name.toLowerCase()).includes(searchQuery.toLowerCase()));
   setFilterCards(()=>[...newState]);
 }, [searchQuery]);
 
