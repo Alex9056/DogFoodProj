@@ -53,7 +53,7 @@
 }
 
 .card__price_type_discount {
-	color: #F44336;
+	color: #eaae3f;
 }
 
 .card__wight {
@@ -78,8 +78,8 @@
 	font-size: 16px;
 	line-height: 20px;
 	color: #FFFFFF;
-	background-color: #F44336;
-	border-radius: 20px;
+	background-color: #eaae3f;
+	border-radius: 6px;
 }
 
 .card__sticky {
@@ -105,7 +105,7 @@
 	display: flex;
 }
 .card__favorite_active {
-	fill: red;
+	fill: #eaae3f;
 }
 .card__cart {
 	margin-top: auto;
@@ -124,18 +124,19 @@
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 20px;
-	border-radius: 55px;
+	border-radius: 7px;
 	text-decoration: none;
 	display: inline-block;
 	transition: background-color .3s;
 }
 
 .btn_type_primary {
-	background-color: #FFE44D;
+	background-color: #a159a1;
+	color: #FFFFFF;
 }
 .btn_type_primary:hover {
-	background-color: #FFAA0D;
-	color: #F44336;
+	background-color: #eaae3f;
+	color: #5f3633;
 }
 
 .tag {
@@ -158,5 +159,5 @@
     fill: red;
 } */
 .card__liked > svg {
-  fill: red;
+  fill: #eaae3f;
 }

@@ -1,4 +1,5 @@
-import LogoSrc from "./Logo.svg";
+// import LogoSrc from "./Logo.svg";
+import LogoSrc from "./bakery-logo.png";
 import "./Logo.css";
 
 
